@@ -1,0 +1,11 @@
+1. Dashboard page loads successfully ✅
+2. "Create New Report" button visible and clickable ✅
+3. Create Report page/form works ✅
+4. Submitting a report saves data to database ✅
+5. Reports manage page displays all reports correctly ✅
+6. Edit report works correctly ✅
+7. Delete report works correctly ✅
+8. Login and registration functionality works ✅
+9. Logout works ✅
+
+All tested features are working as expected.
