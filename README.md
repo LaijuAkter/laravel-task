@@ -59,3 +59,74 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+# Daily Report System
+
+A simple Laravel 12 application for managing daily reports.
+
+---
+
+## Overview
+
+This application allows users to:
+
+- Create, edit, and delete reports.
+- Manage reports from a dedicated dashboard.
+- Use database-driven sessions, cache, and queues.
+
+Built with:
+
+- Laravel 12
+- PHP 8.2
+- MySQL
+- Tailwind CSS for UI styling
+
+---
+
+## Setup Instructions
+
+Follow these steps to run the project locally:
+
+### 1. Clone the repository
+
+```bash
+git clone <your-repo-url>
+cd daily-report-system
+  
+
+Install dependencies:
+
+composer install
+npm install
+npm run dev
+
+
+Configure environment:
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=report
+DB_USERNAME=root
+DB_PASSWORD=
+
+Run migrations:
+
+php artisan migrate
+
+Link storage (for file uploads):
+
+php artisan storage:link
+
+Serve the application:
+
+php artisan serve
+
+Open your browser: http://127.0.0.1:8000
+
+Login or register, then access the Dashboard.
+
+go this link : http://127.0.0.1:8000/reports/create  
+# for create reports
+ 
